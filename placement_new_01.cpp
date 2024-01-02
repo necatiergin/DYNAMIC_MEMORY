@@ -7,5 +7,5 @@ int main()
 
 	int* ip = new (buffer)int;
 
-	std::cout << "addess is : " << ip << '\n';
+	std::cout << "address is : " << ip << '\n';
 }
