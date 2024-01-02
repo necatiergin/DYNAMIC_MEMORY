@@ -3,7 +3,7 @@
 int main()
 {
 	char buffer[sizeof(int)];
-	std::cout << "addess is : " << static_cast<void*>(buffer) << '\n';
+	std::cout << "addRess is : " << static_cast<void*>(buffer) << '\n';
 
 	int* ip = new (buffer)int;
 
