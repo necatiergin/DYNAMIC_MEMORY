@@ -50,6 +50,6 @@ int main()
 		}
 	}
 	catch (const std::exception& ex) {
-		std::cout << "hata yakalandi : " << ex.what() << "\n";
+		std::cout << "hata yakalandi : " << ex.what() << '\n';
 	}
 }
